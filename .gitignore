@@ -1,0 +1,5 @@
+# OS が自動で作るゴミファイルだけを無視します。
+# 注意: *.log などはここに書かないでください（4日目の素材 debug.log が配布されなくなります）。
+Thumbs.db
+desktop.ini
+.DS_Store

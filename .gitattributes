@@ -1,0 +1,7 @@
+# 改行コードの扱い
+# 基本は Git に任せる（Windows では取り出し時に CRLF、記録時に LF）
+* text=auto
+
+# シェルスクリプトは、Windows でも必ず LF で取り出す
+# （CRLF になると Git Bash で実行できなくなるため）
+*.sh text eol=lf
